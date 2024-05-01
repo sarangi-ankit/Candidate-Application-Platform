@@ -1,0 +1,11 @@
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Apply transition to transform and box-shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 8px; /* Rounded corners */
+  transform: translateZ(0); /* Trigger hardware acceleration */
+}
+
+.custom-card:hover {
+  transform: scale(1.05) translateZ(0); /* Zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow effect on hover */
+}
