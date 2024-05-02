@@ -7,7 +7,7 @@ export const fetchJobList = createAsyncThunk(
       const myHeaders = new Headers();
       myHeaders.append("Content-Type", "application/json");
       const raw = JSON.stringify({
-        "limit": 10,
+        "limit": 100,
         "offset": 0
       });
 
